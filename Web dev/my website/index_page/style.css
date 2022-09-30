@@ -1,0 +1,313 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+  
+
+
+body{
+    background-color: #cdcdcd;
+}
+
+.badge{
+    position: absolute;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    margin: 0px 0px 0px 30px;
+    color: black;
+    background-color:rgb(120, 196, 239);
+    border-radius: 35px;
+}
+
+ul{
+    width: 1509.5px;
+    background-color: #ffa781; 
+    margin: 0px;
+    padding: 5px;
+}
+
+li{
+    /* border: 1px solid; */
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#title{
+    width: 450px;
+    font-weight: 800;
+    font-size: 40px;
+    font-family:Jokerman;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    color:#ffa781;
+    background-color: #5b0e2d;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.search{
+   width: 660px; 
+   margin: 0px; 
+}
+
+button{
+    padding: 7px 7px 4px 7px;
+    font-size: 40px;
+    margin: 0px 0px 10px -4px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #cdcdcd;
+    font-family: Harrington;
+}
+
+input{
+    margin: 0px 0px 0px -10px;
+    font-size: 40px;
+    height: 60px;
+    width: 495px;
+    border-radius: 20px;
+    padding: 3px 0px 0px 15px;
+    font-family: Harrington;
+}
+
+.a{ 
+    font-size: 45px; 
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 5px 5px 15px;
+}
+
+#cart{
+    color: rgb(49, 52, 53);
+}
+
+#heart{
+    color: red;
+}
+
+i{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#login{
+    width: 140px;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+}
+
+.bestdeal1{
+    display: grid;
+    text-align:center;
+    grid-template-columns: auto;
+    padding: 30px 10px 30px 10px;
+}
+
+.bestd{
+   text-align: center; 
+   margin: 0px;
+   border: 40px solid rgb(77, 77, 152);
+}
+
+.bestd:hover{
+    transform: scale(1.01);
+}
+
+.bestdeal2{
+    display: grid;
+    text-align:center;
+    grid-template-columns: auto auto;
+    margin: 0px 10px 50px 10px;
+}
+
+.bestd1{
+    border: 50px solid rgb(77, 77, 152);
+}
+
+.bestd1:hover{
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+h1{
+    color: #761137;
+    font-size: 60px;
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+    font-family: Harrington;
+}
+
+.bestd2{
+    border: 50px solid rgb(77, 77, 152);
+}
+
+.bestd2:hover{
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+.dogs{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 0px 60px 0px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.cats{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 0px 60px 0px;
+}
+
+.bestd3{
+    border: 50px solid rgb(77, 77, 152);
+}
+
+.bestd3:hover{
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+.essentials{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 0px 60px 0px;
+}
+
+.bestd4{
+    width: 405px;
+    text-align: center;
+    border: 40px solid rgb(77, 77, 152);
+}
+
+.bestd4:hover{
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+.brands{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 0px 0px 30px 0px;
+}
+.brand1{
+    border: 15px solid rgb(77, 77, 152);
+    width: 200px;
+    margin:10px;
+    text-align: center;
+}
+
+.brand1:hover{
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+.support{
+    color: #761137;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Harrington;
+}
+
+.image{
+        text-align: center;
+        margin: 5px;
+        padding: 50px 0px;
+        width: 1507px;
+        height: 500px;
+        background-image: url("street_dog.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+}
+
+.blog{
+    filter: brightness(100%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 500px;
+    opacity: 1;
+    background: rgba(32, 32, 33, 0.82);
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 70px;
+    color: white;
+    font-family: Lucida Handwriting;
+}
+
+.opert1{
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+.choice{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 2px solid rgb(45, 111, 209);
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px 5px;
+    border-radius: 30px;
+}
+
+h4{
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: Lucida Handwriting;
+}
+
+#head1{
+   padding: 40px 0px 0px 0px;
+}
+
+.button{
+    color: rgb(45, 111, 209);
+    font-weight: 900;
+    border: 2px solid;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: Lucida Handwriting;
+}
+
+h5{
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.links{
+    display:inline;
+    margin: 0px 0px 0px 640px; 
+}
+
+#github{
+    margin: 25px 30px 0px 30px; 
+    width: 70px;
+}
+
+#linkedin{
+    width: 70px;
+}
